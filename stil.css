@@ -1,0 +1,252 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Kristi);
+
+
+/* -------------------------------------------- Whole Document */
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body{
+	font-family: "Open Sans";
+	background: url(slike/Sarajevo.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+
+/* ------------------------------------------------ Home */
+
+#home {
+	/*background-image: url("slike/SarajevoNocu.jpg");
+	background-repeat: no-repeat;*/
+	
+	width: 100%;
+	height: 100%;
+}
+
+
+#welcomeMsg {
+	height: 100%;
+	padding: 200px 100px 0px 100px;
+	color: white;
+	text-shadow: 1px 2px 6px black;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h1.orange {
+	font-family: Kristi;
+	font-size: 80px;
+	color: orange;
+	margin-bottom: 30px;
+	font-weight: 200;
+}
+
+/* --------------------------------------Not Implemented */
+.notImplementedSection {
+	height: 100%;
+	
+}
+
+
+/* ------------------------------------------- About Us */
+#aboutUs {
+	background-color: white;
+
+}
+
+.sjenaSlike {
+	-webkit-box-shadow: 1px 1px 27px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 1px 1px 27px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 1px 1px 27px 0px rgba(50, 50, 50, 0.75);
+	width: 100%;
+	margin: 10px 0 10px 0;
+}
+
+.textBox{
+	padding: 50px 20px 20px 100px;
+	width: 60%;
+	color: black;
+	float: left;
+}
+
+#aboutUsSlike {
+	margin-top: 50px;
+	width: 20%;
+	float: left;
+}
+
+
+.leftPanel {
+	width: 75%;
+	float: left;
+}
+.rightPanel {
+	width: 25%;
+	float: right;
+
+}
+
+/* ---------------------------------------- Contact Info */
+#contact {
+	/*background-color: rgba(0,0,28, 0.8);*/
+	height: 100%;
+	padding: 300px 100px 0px 400px;
+	text-shadow: 1px 2px 6px black;
+	float: left;
+	font-size: 20px;
+	color: orange;
+	margin-bottom: 30px;
+	font-weight: 200;
+	text-shadow: 2px 2px black;
+}
+
+.podloga {
+	background-color: rgba(0, 0, 50, 0.8);
+	padding: 50px 50px 50px 50px;
+	border-radius: 10px;
+}
+
+
+
+/* --------------------------------------- About Sarajevo */
+#aboutSarajevo {
+	background-color: white;
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+.galleria {
+	width: 90%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+/* --------------------------------------- Event Plan */
+
+#eventPlan {
+	/*background-color: rgba(0,0,28, 0.8);*/
+	height: 100%;
+	padding: 300px 100px 0px 400px;
+	text-shadow: 1px 2px 6px black;
+	font-family: Kristi;
+	font-size: 80px;
+	color: orange;
+	margin-bottom: 30px;
+	font-weight: 200;
+	text-shadow: 2px 2px black;
+}
+
+
+/* ----------------------------------------- Sponzors */
+#sponsors {
+	/*background-color: white;*/
+	height: 100%;
+	padding: 300px 100px 0px 400px;
+	text-shadow: 1px 2px 6px black;
+	font-family: Kristi;
+	font-size: 80px;
+	color: orange;
+	margin-bottom: 30px;
+	font-weight: 200;
+	text-shadow: 2px 2px black;
+}
+
+
+/* ------------------------------------------- Side Menu */
+
+#sideMenu {
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: rgba(0,0,28, 0.8);
+	padding-top: 40px;
+	text-shadow: 2px 2px black;
+}
+
+a {
+	text-decoration: none;
+	color: white;	
+}
+
+li:hover {
+	background-color: #191959;
+	font-size: 18px;
+}
+
+li {
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 4px;
+	background-color: rgba(0,0,50, 0.7);
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* --------------------------------------- Button "Prijava" auto-generated */
+
+li.prijava {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 18px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 2px 2px 2px black;
+}
+
+li.prijava:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+	
+	font-size: 20px;
+	
+}
+
+
+li.prijava:active {
+	position:relative;
+	top:1px;
+}
